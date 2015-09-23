@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="37dp"
         android:background="#F08C35"
-        android:onClick="sendMessage1"/>
+        android:onClick="sendMessage"/>
 
     <Button
         android:layout_width="250dp"
@@ -36,7 +36,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="#F08C35"
-        android:onClick="sendMessage2"/>
+        android:onClick="sendMessage"/>
 
     <Button
         android:layout_width="250dp"
@@ -47,7 +47,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="#F08C35"
-        android:onClick="sendMessage3"
+        android:onClick="sendMessage"
         />
 
     <Button
@@ -59,7 +59,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="#F08C35"
-        android:onClick="sendMessage4"/>
+        android:onClick="sendMessage"/>
 
     <Button
         android:layout_width="250dp"
@@ -70,7 +70,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="#F08C35"
-        android:onClick="sendMessage5"/>
+        android:onClick="sendMessage"/>
 
     <Button
         android:layout_width="250dp"
@@ -80,7 +80,7 @@
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="#F08C35"
-        android:onClick="sendMessage6"/>
+        android:background="#D83055"
+        android:onClick="sendMessage"/>
 
 </RelativeLayout>

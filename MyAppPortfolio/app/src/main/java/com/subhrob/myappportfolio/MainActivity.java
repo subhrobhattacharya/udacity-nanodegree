@@ -15,54 +15,36 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
     }
 
-    public void sendMessage1(View view) {
+    public void sendMessage(View view) {
         Context context = getApplicationContext();
-        CharSequence text = getString(R.string.msg1);
+        CharSequence text = null;
+        switch (view.getId()) {
+            case R.id.button1:
+                text = getString(R.string.msg1);
+                break;
+            case R.id.button2:
+                text = getString(R.string.msg2);
+                break;
+            case R.id.button3:
+                text = getString(R.string.msg3);
+                break;
+            case R.id.button4:
+                text = getString(R.string.msg4);
+                break;
+            case R.id.button5:
+                text = getString(R.string.msg5);
+                break;
+            case R.id.button6:
+                text = getString(R.string.msg6);
+                break;
+
+        }
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
-    public void sendMessage2(View view) {
-        Context context = getApplicationContext();
-        CharSequence text = getString(R.string.msg2);
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-    }
-    public void sendMessage3(View view) {
-        Context context = getApplicationContext();
-        CharSequence text = getString(R.string.msg3);
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-    }
-    public void sendMessage4(View view) {
-        Context context = getApplicationContext();
-        CharSequence text = getString(R.string.msg4);
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-    }
-    public void sendMessage5(View view) {
-        Context context = getApplicationContext();
-        CharSequence text = getString(R.string.msg5);
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-    } public void sendMessage6(View view) {
-        Context context = getApplicationContext();
-        CharSequence text = getString(R.string.msg6);
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-    }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
