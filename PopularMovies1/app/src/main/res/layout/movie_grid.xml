@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_no_margin"
+    android:paddingRight="@dimen/activity_no_margin"
+    android:paddingTop="@dimen/activity_no_margin"
+    android:paddingBottom="@dimen/activity_no_margin"
+    tools:context="com.subhrob.popularmovies1.MostPopularFragment"
+    >
+
+    <GridView
+        android:id="@+id/gridview_most_popular"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/activity_no_margin"
+        android:horizontalSpacing="@dimen/activity_no_margin"
+        android:stretchMode="columnWidth"/>
+</FrameLayout>
