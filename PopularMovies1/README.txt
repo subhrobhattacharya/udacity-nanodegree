@@ -1,1 +1,1 @@
-Initialize the API_VALUE varable in the FetchTask.java file with thr API_KEY.
+Initialize the API_VALUE varable in the FetchTask.java file with the API_KEY.
